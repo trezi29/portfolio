@@ -1,3 +1,21 @@
+.mt__pagecontainer {
+  display: grid;
+  grid-template-columns: 30vw 70vw;
+
+  .navigation,
+  .content {
+    height: 100vh;
+  }
+
+  .navigation {
+    background-color: red;
+  }
+
+  .content {
+    background-color: blue;
+  }
+}
+
 h1 {
   color: red;
 }
